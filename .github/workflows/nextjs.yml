@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        run: npm ci
+        run: npm install  # تغيير من npm ci إلى npm install
       - name: Build
         run: npm run build
       - name: Setup Pages
