@@ -133,6 +133,9 @@ Important Links & Addresses
 https://drive.google.com/file/d/1Bk1zUotXTRrDgkrwlyQA1v_xsgroU4Qr/view?usp=sharing
 
 
+4.رابط الموقع بعد النشر(استضافة)
+https://muhammetgazel.github.io/blokkat-arabic-blockchain-developer-bootcamp-graduation-project/
+
 
 
 
