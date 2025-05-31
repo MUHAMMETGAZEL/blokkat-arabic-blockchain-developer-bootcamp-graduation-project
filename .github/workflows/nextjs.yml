@@ -22,14 +22,13 @@ jobs:
         with:
           node-version: 20
       
-      # تغيير الدليل إلى مجلد frontend
-      - name: Navigate to frontend
-        run: cd frontend
-      
+      # استبدل 'sharaka-dapp' باسم مجلد مشروعك الفعلي
       - name: Install dependencies
+        working-directory: sharaka-dapp
         run: npm install
       
       - name: Build
+        working-directory: sharaka-dapp
         run: npm run build
       
       - name: Setup Pages
@@ -38,7 +37,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: frontend/out
+          path: sharaka-dapp/out
+          
   deploy:
     environment:
       name: github-pages
