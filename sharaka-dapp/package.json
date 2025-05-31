@@ -4,11 +4,10 @@
   "private": true,
   "homepage": "https://MUHAMMETGAZEL.github.io/blokkat-arabic-blockchain-developer-bootcamp-graduation-project",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build && next export",
-    "start": "next start",
-    "lint": "next lint"
-    "deploy": "gh-pages -d out"
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
 
   },
   "dependencies": {
