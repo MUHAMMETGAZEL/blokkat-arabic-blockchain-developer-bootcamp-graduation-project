@@ -2,7 +2,10 @@
 const nextConfig = {
   output: 'export',
   distDir: 'out',
-   basePath: '/blokkat-arabic-blockchain-developer-bootcamp-graduation-project'
+  basePath: '/blokkat-arabic-blockchain-developer-bootcamp-graduation-project',
+  images: {
+    unoptimized: true
+  }
 };
 
 export default nextConfig;
